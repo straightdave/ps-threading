@@ -26,7 +26,7 @@ $pool.open()
   [void]$t.AddScript($block)
   [void]$t.AddParameter("p",$_)
   
-  $job = $p.BeginInvoke()
+  $job = $t.BeginInvoke()
 
   # you can call endinvoke in/out this loop
   # $p.EndInvoke($job)

@@ -29,5 +29,5 @@ $pool.open()
   $job = $t.BeginInvoke()
 
   # you can call endinvoke in/out this loop
-  # $p.EndInvoke($job)
+  # $t.EndInvoke($job)
 }
